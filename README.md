@@ -2,14 +2,14 @@
 
 
 # How to interact with your Joint Savings Smart Contract
-Congratultions!  You're Joint Savings Smart Contract has been deployed and is now ready to use.  Here are some instructin and examples to help you learn more about interacting with your contract:
+Congratultions!  You're Joint Savings Smart Contract has been deployed and is now ready to use.  Here are some instructions with examples to help you learn how to interact with your contract:
 
-<br><br>
+<br>
 
 
 ## Set Accounts
 
-Use the `setAccounts` function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
+Use the `setAccounts` function to define the authorized Ethereum addresses that will be able to withdraw funds from your contract.
 
 <br>
 
@@ -23,7 +23,7 @@ _______________________________
 <br>
 
 ## Deposit
-Use the `deposit` functionality of the smart contract by sending funds to the smart contract.
+Use the `deposit` function to send funds to the smart contract.
 
 <br>
 
@@ -41,7 +41,7 @@ _______________________________
 <br>
 
 ## Contract Balance
- Use the `contractBalance` function to verify the balance of the:
+ Use the `contractBalance` function to verify the balance of the smart contract:
 
 <br>
 
@@ -69,7 +69,7 @@ _______________________________
 
 ## Withdraw
 
-Use the `withdraw` function withdraw funds from the smart contract and deposit into anothe wallet.
+Use the `withdraw` function to withdraw funds from the smart contract and deposit into one of the two authorized accounts.
 
 <br>
 
@@ -77,7 +77,7 @@ Use the `withdraw` function withdraw funds from the smart contract and deposit i
  <br><br>
 ![alt=“”](Execution_Results/6_Withdraw.png)
 <br> <br>
-Now let's use the `contractBalance` function check the smart contrat balance to see the funds were withdrawn:
+Use the `contractBalance` function check the smart contrat balance and verify that the funds were withdrawn:
 <br> <br>
 ![alt=“”](Execution_Results/7_Balance.png)
 
@@ -89,7 +89,7 @@ Now let's use the `contractBalance` function check the smart contrat balance to 
  <br><br>
 ![alt=“”](Execution_Results/8_Withdraw.png)
 <br> <br>
-Now let's use the `contractBalance` function check the smart contrat balance to see the funds were withdrawn:
+Use the `contractBalance` function check the smart contrat balance and verify that the funds were withdrawn:
 <br> <br>
 ![alt=“”](Execution_Results/9_Balance.png)
 
@@ -105,7 +105,7 @@ Use the `lastToWithdraw` function to see the address of the last wallet to withd
 
 <br>
 
- > **EXAMPLE:** Withdrawing 10 ether into `accountTwo`:
+ > **EXAMPLE:** The last address to withdraw was accountTwo:
  <br><br>
 ![alt=“”](Execution_Results/10_LastToWithdraw.png)
 
@@ -120,7 +120,7 @@ Use the `lastWithdrawAmount` function to see the amount of the last withdraw.
 
 <br>
 
- > **EXAMPLE:** Withdrawing 10 ether into `accountTwo`:
+ > **EXAMPLE:** The amount withdrawn was 10 Ether, or 10000000000000000000 Wei:
  <br><br>
 ![alt=“”](Execution_Results/11_LastWithdrawAmount.png)
 <br> <br>
