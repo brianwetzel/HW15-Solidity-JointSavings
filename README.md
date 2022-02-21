@@ -25,6 +25,8 @@ _______________________________
 ## Deposit
 Use the `deposit` functionality of the smart contract by sending funds to the smart contract.
 
+<br>
+
 > **EXAMPLE:** Below we are sending 1 ether as wei: <br> <br>
 > ![alt](Execution_Results/2_Deposit.png)
 
@@ -41,13 +43,19 @@ _______________________________
 ## Contract Balance
  Use the `contractBalance` function to verify the balance of the:
 
+<br>
 
-> **EXAMPLE:** Below we sent 10 ether as wei: <br> <br>
+> **EXAMPLE:** Here is our balance after receiving 1 ether as wei: <br> <br>
+![alt=“”](Execution_Results/3_Balance.png)
+
+<br>
+
+> **EXAMPLE:** Here is our balance after receiving 10 ether as wei: <br> <br>
 ![alt=“”](Execution_Results/4_Balance.png)
 
 <br>
 
-> **EXAMPLE:** Below we sent 5 ether:  <br> <br>
+> **EXAMPLE:** Here is our balance after receiving 5 ether:  <br><br>
 ![alt=“”](Execution_Results/5_Balance.png)
 
 
@@ -66,23 +74,24 @@ Use the `withdraw` function withdraw funds from the smart contract and deposit i
 <br>
 
  > **EXAMPLE:** Withdrawing 5 ether into `accountOne`:  
- <br>
-![alt=“”](Execution_Results/5_Balance.png)
+ <br><br>
+![alt=“”](Execution_Results/6_Withdraw.png)
 <br> <br>
 Now let's use the `contractBalance` function check the smart contrat balance to see the funds were withdrawn:
-<br>
-![alt=“”](Execution_Results/5_Balance.png)
+<br> <br>
+![alt=“”](Execution_Results/7_Balance.png)
 
 
 <br><br>
 
 
  > **EXAMPLE:** Withdrawing 10 ether into `accountTwo`:
- <br>
-![alt=“”](Execution_Results/5_Balance.png)
+ <br><br>
+![alt=“”](Execution_Results/8_Withdraw.png)
 <br> <br>
 Now let's use the `contractBalance` function check the smart contrat balance to see the funds were withdrawn:
-![alt=“”](Execution_Results/5_Balance.png)
+<br> <br>
+![alt=“”](Execution_Results/9_Balance.png)
 
 
 <br>
@@ -97,8 +106,8 @@ Use the `lastToWithdraw` function to see the address of the last wallet to withd
 <br>
 
  > **EXAMPLE:** Withdrawing 10 ether into `accountTwo`:
- <br>
-![alt=“”](Execution_Results/5_Balance.png)
+ <br><br>
+![alt=“”](Execution_Results/10_LastToWithdraw.png)
 
 <br>
 
@@ -107,10 +116,12 @@ _______________________________
 <br>
 
 ## Last Amount Withdrawn
-Use the `lastToWithdraw` function to see the address of the last wallet to withdraw.
+Use the `lastWithdrawAmount` function to see the amount of the last withdraw.
+
+<br>
 
  > **EXAMPLE:** Withdrawing 10 ether into `accountTwo`:
- <br>
-![alt=“”](Execution_Results/5_Balance.png)
+ <br><br>
+![alt=“”](Execution_Results/11_LastWithdrawAmount.png)
 <br> <br>
 
